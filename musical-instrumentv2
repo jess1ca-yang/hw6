@@ -52,7 +52,7 @@ function keyPressed() {
     background(255, 255, 255, 10);
     stroke(255, random(255), random(255), 50);
     fill(255, random(360), 255);
-    ellipse(random(width), random(height), random(50, 40), random(20, 30))
+    ellipse(random(width), random(height), random(50, 80), random(20, 60))
     sSound.play();
   } else if (key == 'D') {
     background(255, 255, 255, 10);
@@ -64,7 +64,7 @@ function keyPressed() {
 		background(255, 255, 255, 10);
     stroke(255, 100, random(360));
     fill(random(360), 255, 255);
-    ellipse(random(width), random(height), random(20, 40))
+    triangle(random(1, 400), random(1, 400), random(20, 120), random(1, 300), random(40, 400), random(1, 400))
     fSound.play();
   } else if (key == 'G') {
     background(255, 255, 255, 10);
